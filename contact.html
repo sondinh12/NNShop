@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+</head>
+<body>
+    <header>
+        <section class="container max-w-screen-xl m-auto flex items-center justify-between py-4">
+            <img src="./asscess/images/logo.png" alt="">
+            <ul class="flex gap-8 font-medium text-xl">
+                <li class="hover:text-amber-500"><a href="./index.html">Home</a></li>
+                <li class="hover:text-amber-500"><a href="./shop.html">Shop</a></li>
+                <li class="hover:text-amber-500"><a href="./about.html">About</a></li>
+                <li class="hover:text-amber-500"><a href="./contact.html">Contact</a></li>
+            </ul>
+            <div class="flex gap-4">
+                <span class="material-symbols-outlined">person</span>
+                <span class="material-symbols-outlined">search</span>
+                <span class="material-symbols-outlined">favorite</span>
+                <a href="./cart.html"><span class="material-symbols-outlined">shopping_cart</span></a>
+            </div>
+        </section>
+        <!-- End Nevigation bar -->
+         <section>
+            <img src="./asscess/images/banner-contact.jpg" alt="" class="w-full">
+         </section>
+         <!-- End Banner -->
+    </header>
+    <main>
+        <section class="container max-w-screen-xl m-auto mt-16">
+            <div class="grid grid-cols-12 gap-6">
+                <div class="flex gap-6 col-span-4">
+                    <div class="border border-solid border-[#CA8A04] w-[64px] h-[64px] text-center flex items-center justify-center flex-shrink-0">
+                        <span class="material-symbols-outlined text-[#CA8A04]">location_on</span>
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-2xl font-bold mb-4">ADDRESS</h3>
+                        <span class="font-normal text-[#71717A] text-lg">60/850 Đường Láng, Láng Thượng, Đống Đa, Hà Nội</span>
+                    </div>                   
+                </div>
+                <div class="flex gap-6 col-span-4">
+                    <div class="border border-solid border-[#CA8A04] w-[64px] h-[64px] text-center flex items-center justify-center ">
+                        <span class="material-symbols-outlined text-[#CA8A04]">contacts</span>
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-2xl font-bold mb-4">CONTACT DEATAILS</h3>
+                        <span class="font-normal text-[#71717A] text-lg">info@furniro.com</span>
+                        <span class="font-bold text-[#71717A] text-xl block">02056278686</span>
+                    </div>                    
+                </div>
+                <div class="flex gap-6 col-span-4">
+                    <div class="border border-solid border-[#CA8A04] w-[64px] h-[64px] text-center flex items-center justify-center ">
+                        <span class="material-symbols-outlined text-[#CA8A04]">share</span>
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-2xl font-bold mb-4">SOCIAL NETWORKS</h3>
+                        <span class="font-normal text-[#71717A] text-lg *:mr-5 *:text-3xl">
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                            <i class="fa-brands fa-square-twitter"></i>
+                            <i class="fa-brands fa-square-youtube"></i>
+                            <i class="fa-brands fa-tiktok"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="mt-16 grid grid-cols-2">
+                <div class="col-span-1">
+                    <img src="./asscess/images/img-contact.jpg" class="w-full" alt="">
+                </div>
+                <div class="col-span-1 bg-neutral-300 py-16 pl-8 pr-20">
+                    <div>
+                        <p class="text-xl font-semibold mb-4">CONTACT</p>
+                    <p class="font-bold text-[40px] mb-8">CONTACT WITH US NOW</p>
+                    <form action="" class="mb-8">
+                        <div class="grid grid-cols-2 gap-8 mb-3">
+                            <div>
+                                <input type="text" name="firstname-ct" id="" placeholder="First Name" class="border-b border-0 border-solid border-[#9CA3AF] py-3 w-full bg-neutral-300 text-[#9CA3AF]">
+                            </div>
+                            <div>
+                                <input type="text" name="lastname-ct" id="" placeholder="Last Name" class="border-b border-0 border-solid border-[#9CA3AF] py-3 w-full bg-neutral-300 text-[#9CA3AF]">
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-8 mb-3">
+                            <div>
+                                <input type="text" name="firstname-ct" id="" placeholder="Email" class="border-b border-0 border-solid border-[#9CA3AF] py-3 w-full bg-neutral-300 text-[#9CA3AF]">
+                            </div>
+                            <div>
+                                <input type="text" name="lastname-ct" id="" placeholder="Phone Number" class="border-b border-0 border-solid border-[#9CA3AF] py-3 w-full bg-neutral-300 text-[#9CA3AF]">
+                            </div>
+                        </div>
+                        <div>
+                            <input type="text" name="mes" id="" placeholder="Message" class="border-b border-0 border-solid border-[#9CA3AF] py-3 w-full bg-neutral-300 text-[#9CA3AF]">
+                        </div>
+                    </form>
+                    <button type="submit" class="bg-[#CA8A04] py-3 px-6 flex items-center *:text-white">
+                        <span class="material-symbols-outlined mr-1">send</span>
+                        <p class="font-bold text-base">Send Infomation</p>
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#262626] text-white py-16 pb-8">
+        <div class="grid grid-cols-4 gap-8 container max-w-screen-xl m-auto mb-16">
+            <div>
+                <img src="./asscess/images/footer-logo.svg" alt="" class="mb-4">
+                <p>400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
+            </div>
+            <div>
+                <h3 class="font-semibold text-xl mb-4">Sitemap</h3>
+                <ul>
+                    <li class="mb-4"><a href="">Home</a></li>
+                    <li class="mb-4"><a href="">Shop</a></li>
+                    <li class="mb-4"><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-semibold text-xl mb-4">Help</h3>
+                <ul>
+                    <li class="mb-4"><a href="">Payment Options</a></li>
+                    <li class="mb-4"><a href="">Returns</a></li>
+                    <li><a href="">Privacy Policies</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-semibold text-xl mb-4">Location</h3>
+                <ul>
+                    <li class="mb-4"><a href="">support@euphoria.in</a></li>
+                    <li class="mb-4"><a href="">Ahmedabad Main Road</a></li>
+                    <li><a href="">Udaipur, India- 313002</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="text-center mt-8">Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</p>
+    </footer>
+</body>
+</html>
